@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código QR WOM</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/nieve.css">
+</head>
+
+<body>
+    <img class="img-womers" src="./img/womers-icon.svg" alt="WOMers">
+    <div id="reiniciarBoton"></div>
+    <main class="section">
+        <h1 class="ceraPro title wom-pink">Ahora escanea<br>
+            este código:
+        </h1>
+        <div class="mt-min">
+            <p class="subtitle ceraPro wom-color">Descuento de Nómina:</p>
+            <img class="img-santa" src="./img/qr_code_nomina.svg" alt="Código QR">
+        </div>
+        <div class="">
+            <p class="subtitle ceraPro wom-color">Catálogo de regalos:</p>
+            <img class="img-santa" src="./img/qr_code_regalo.svg" alt="Código QR">
+        </div>
+    </main>
+</body>
+<script>
+    // Tiempo en milisegundos antes de redirigir (ejemplo: 5000ms = 5 segundos)
+    let tiempoRedireccion = 30000;
+
+    setTimeout(function () {
+        // Redirige a la página "index.html" después de X tiempo segundos
+        window.location.href = "nuevo.html";
+    }, tiempoRedireccion);
+</script>
+<script src="./js/app.js"></script>
+
+</html>
