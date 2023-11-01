@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa WOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/nieve.css">
 
 </head>
 
 <body>
-    <img class="img-womers" src="./img/womers-icon.svg" alt="WOMers">
     <button id="reiniciarBoton">
         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true">
@@ -20,22 +21,35 @@
             </path>
         </svg>
     </button>
-    <!-- titulo -->
-    <main class="section">
-        <h1 class="ceraPro title wom-pink">Necesitamos de ti <br>
-            y <span id="totalWomers"></span> Womers más
-        </h1>
-        <p class="creaProMedium wom-color subtitle">Para hacer felices cientos de niños <br>
-            de escasos recursos esta navidad.
-        </p>
-        <p class="subtitle ceraPro wom-color mt-10">Haz clic en el botón de abajo y sigue <br>
-            los pasos para realizar tu donación
-        </p>
-        <img class="row_down pulse" src="./img/row_down.svg" alt="Flecha abajo">
-        <a href="codigo.html">
-            <img class="img-santa " src="./img/event_icon.svg" alt="titulo">
-        </a>
-    </main>
+    <div class="container">
+        <div class="row d-flex justify-content-end py-5 px-5">
+            <div class="col-6">
+                <img class="img-womers" src="./img/womers-icon.svg" alt="WOMers">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <h1 class="ceraPro title wom-pink  mt-4 mb-4">Necesitamos de ti <br>
+                    y <span id="totalWomers"></span> Womers más
+                </h1>
+                <p class="creaProMedium wom-color subtitle">Para hacer felices cientos de niños <br>
+                    de escasos recursos esta navidad.
+                </p>
+                <p class="subtitle ceraPro wom-color mt-5">Haz clic en el botón de abajo y sigue <br>
+                    los pasos para realizar tu donación
+                </p>
+                <img width="50px" class="row_down pulse" src="./img/row_down.svg" alt="Flecha abajo">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4 mb-5">
+            <div class="col-8">
+                <a href="codigo.html">
+                    <img width="100%" class="img-santa " src="./img/event_icon.svg" alt="titulo">
+                </a>
+            </div>
+        </div>
+    </div>
+
 
     <!-- <div class="progreso">
         <img class="progreso pulse" id="imgPorcentaje">

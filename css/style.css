@@ -59,20 +59,18 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    min-height: 100vh;
     width: 100%;
-    overflow: hidden;
 }
 
-.section {
+/* .section {
     position: absolute;
     width: 80%;
     margin-top: 30%;
     margin-left: 10%;
     text-align: center;
-}
+} */
 
-.mt-10 {
+/* .mt-10 {
     margin-top: 25%;
 }
 
@@ -166,18 +164,9 @@ body {
 
 
 
-#reiniciarBoton {
-    border: none;
-    background: transparent;
-    position: absolute;
-    z-index: 999;
-    width: 4%;
-}
 
-#reiniciarBoton svg {
-    position: absolute;
-    width: 100%;
-}
+
+
 
 .progreso {
     position: absolute;
@@ -186,6 +175,18 @@ body {
     z-index: 999;
     width: 63%;
     margin-left: 18.8%;
+} */
+#reiniciarBoton svg {
+    position: absolute;
+    width: 100%;
+}
+
+#reiniciarBoton {
+    border: none;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    width: 4%;
 }
 
 /* Animations */
