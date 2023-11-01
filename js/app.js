@@ -115,41 +115,41 @@ var imgPorcentaje = document.getElementById('imgPorcentaje')
 var completado = document.getElementById('completado')
 // Cambiar el atributo src de la imagen
 if (contador == 0) {
-    imgPorcentaje.src = './img/progreso_0.svg'
+    imgPorcentaje.src = '../img/progreso_0.svg'
 } else if (contador >= 49) {
     localStorage.setItem("contador", 0);
     contador = localStorage.getItem("contador");
     completado.textContent = 'Hemos logrado la meta'
-    imgPorcentaje.src = './img/progreso_100.svg'
+    imgPorcentaje.src = '../img/progreso_100.svg'
     console.log(contador,);
 } else if (contador >= 45) {
-    imgPorcentaje.src = './img/progreso_90.svg'
+    imgPorcentaje.src = '../img/progreso_90.svg'
     console.log(contador);
 } else if (contador >= 40) {
-    imgPorcentaje.src = './img/progreso_80.svg'
+    imgPorcentaje.src = '../img/progreso_80.svg'
     console.log(contador);
 } else if (contador >= 35) {
-    imgPorcentaje.src = './img/progreso_70.svg'
+    imgPorcentaje.src = '../img/progreso_70.svg'
     console.log(contador);
 } else if (contador >= 30) {
-    imgPorcentaje.src = './img/progreso_60.svg'
+    imgPorcentaje.src = '../img/progreso_60.svg'
     console.log(contador);
 } else if (contador >= 25) {
-    imgPorcentaje.src = './img/progreso_50.svg'
+    imgPorcentaje.src = '../img/progreso_50.svg'
     console.log(contador);
 } else if (contador >= 20) {
-    imgPorcentaje.src = './img/progreso_40.svg'
+    imgPorcentaje.src = '../img/progreso_40.svg'
     console.log(contador);
 } else if (contador >= 15) {
-    imgPorcentaje.src = './img/progreso_30.svg'
+    imgPorcentaje.src = '../img/progreso_30.svg'
     console.log(contador);
 } else if (contador >= 10) {
-    imgPorcentaje.src = './img/progreso_20.svg'
+    imgPorcentaje.src = '../img/progreso_20.svg'
     console.log(contador);
 } else if (contador >= 5) {
-    imgPorcentaje.src = './img/progreso_10.svg'
+    imgPorcentaje.src = '../img/progreso_10.svg'
     console.log(contador);
 } else {
-    imgPorcentaje.src = './img/progreso_10.svg'
+    imgPorcentaje.src = '../img/progreso_10.svg'
     console.log(contador);
 }
